@@ -13,6 +13,10 @@
 	display: none;
 }
 
+.nodisplay {
+  display:none;
+}
+
 p {
 	text-align: center;
 	margin: 0;
@@ -92,7 +96,7 @@ body {
 #wel-d {
   background-color: #E8DED1;
   text-align: center;
-	font-size: 50px;
+	font-size: 90px;
 	padding: 55px;
 	color: #181D57;
   margin-top: 1em;
@@ -103,6 +107,9 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
   justify-content: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 1em;
 }
 
 .img-i {
@@ -122,21 +129,35 @@ body {
   object-fit: cover;
   overflow: hidden;
 }
+#NAMES {
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
 
-.text-m {
+.team-info {
   background-color: #181D57;
   text-align: center;
 	font-size: 40px;
-	padding: 60px;
+	padding: 150px;
 	color: #E8DED1;
   letter-spacing: 2px;
   line-height: 60px;
 }
-.text-i {
-  background-color: #E8DED1;
-  text-align: center;
-	font-size: 40px;
-	padding: 65px;
-	color: #181D57;
-  letter-spacing: 2px;
-  line-height: 60px;
+
+
+.mem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-content: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+.mem p:hover {
+	 background:#E8DED1;
+	 color:#181D57;
+	 -webkit-transition: background-color 500ms linear;
+	 -ms-transition: background-color 500ms linear;
+	 transition: background-color 500ms linear;
+}
